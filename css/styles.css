@@ -1,0 +1,106 @@
+body {
+    background-color: #f8f8f8;
+    color: #737373;
+    font-family: Candara, Calibri, Segoe, "Segoe UI";
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #585858;
+    font-family: 'Adobe Gothic', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #585858;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: forestgreen;
+}
+p {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+    padding-bottom: 40px;
+}
+.header-container {
+    margin: 50px auto 10px;
+    width: 32%;
+}
+.body-container {
+    margin: 0 auto 0px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.cards {
+    background-color: #ffffff;
+    box-shadow: 0 10px #e8e8e8;
+    display: inline-block;
+    margin: 50px auto 0;
+    padding: 10px 30px 40px 30px;
+    text-align: left;
+    width: 20%;
+}
+
+.img {
+    float: right;
+}
+
+.cyancard {
+    border-radius: 5px;
+    border-top-color: cyan;
+    border-top-style: solid;
+    top: 130px;
+    left: 140px;
+    position: relative;
+}
+
+.redcard {
+    border-radius: 5px;
+    border-top-color: red;
+    border-top-style: solid;
+    position: relative;
+    left: 170px;
+}
+
+.orangecard {
+    border-radius: 5px;
+    border-top-color: orange;
+    border-top-style: solid;
+    top: 280px;
+    right: 160px;
+    position: relative;
+}
+
+.bluecard {
+    border-radius: 5px;
+    border-top-color: blue;
+    border-top-style: solid;
+    top: 130px;
+    right: 140px;
+    position: relative;
+}
+main {
+    margin: 0 0 300px;
+}
+.footer {
+   background-color: #ffffff;
+    margin: 0;
+    padding-top: 10px;
+}
