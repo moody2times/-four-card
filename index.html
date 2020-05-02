@@ -4,46 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Frontend Mentor | Four card feature section</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <title>Frontend Mentor | Four card feature section</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="bootstrap-4.4.1/bootstrap-4.4.1-dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap" rel="stylesheet">
+
 
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <h1>Reliable, efficient delivery</h1>
-            <h2>Powered by Technology</h2>
+    <div class="container">
 
-            <p>Our Artificial Intelligence powered tools use millions of project data points
-                to ensure that your project is successful</p>
+        <h1>Reliable, efficient delivery</h1>
+        <h2>Powered by Technology</h2>
+        <div class="row">
+            <div class="col-lg-5 col-md-6 header-text">
+                <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+            </div>
         </div>
-    </header>
-    <main>
-        <div class="body-container">
-            <div class="cards cyancard">
+    </div>
+    <div class="main-container">
+            <div class="cards" id="cyancard">
                 <h3>Supervisor</h3>
                 <p class="wrap-text">Monitors activity to identify project roadblocks</p>
                 <img class="img" src="images/icon-supervisor.svg" alt="supervisor-image">
             </div>
 
-            <div class="cards redcard">
+            <div class="cards" id="redcard">
                 <h3>Team Builder</h3>
                 <p class="wrap-text">Scans our talent network to create the optimal team for your project</p>
                 <img class="img" src="images/icon-team-builder.svg" alt="team-builder-image">
             </div>
 
-            <div class="cards orangecard">
+            <div class="cards" id="orangecard">
                 <h3>Karma</h3>
                 <p class="wrap-text"> Regularly evaluates our talent to ensure quality</p>
                 <img class="img" src="images/icon-karma.svg" alt="karma-image">
             </div>
 
-            <div class="cards bluecard">
+            <div class="cards" id="bluecard">
                 <h3> Calculator</h3>
                 <p class="wrap-text">Uses data from past projects to provide better delivery estimates</p>
                 <img class="img" src="images/icon-calculator.svg" alt="calculator-image">
@@ -51,16 +55,17 @@
 
         </div>
 
-    </main>
 
     <footer>
-        <div class="footer">
+        <div class="container-fluid">
             <p class="attribution">
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
                 Coded by <a href="https://twitter.com/MoodyMudiaga">Mudiaga Moody</a>.
             </p>
         </div>
     </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </body>
-
 </html>
