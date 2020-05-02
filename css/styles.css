@@ -31,7 +31,6 @@ h2 {
     width: 61%;
 }
 
-
 h3 {
     color: #585858;
     font-size: 1.3rem;
@@ -100,6 +99,8 @@ h3 {
 
 }
 
+}
+
 footer {
     background-color: #e0e0e0;
     height: 50px;
@@ -141,4 +142,6 @@ footer {
         position: static;
         width: 300px;
     }
+    .attribution {
+    font-size: 0.9rem;
 }
