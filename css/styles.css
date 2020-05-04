@@ -3,15 +3,13 @@ body {
     color: #737373;
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
-    margin: 0;
     text-align: center;
 }
 
 h1 {
     font-size: 2rem;
     font-weight: 200;
-    margin: 0 auto 0;
-    padding-top: 50px;
+    margin-top: 7%;
 }
 
 h2 {
@@ -19,129 +17,110 @@ h2 {
     font-size: 1.78rem;
     font-weight: 600;
     letter-spacing: 2px;
-    margin: 0 auto 10px;
-    padding-bottom: 10px;
+    margin: 0 0 3%;
+    
 }
 
 .header-text {
-    color: #b8b8b8;
     font-size: 0.85rem;
-    font-weight: 300;
-    margin: 0 auto 30px;
+    font-weight: 100;
+    margin: 0 auto 4%;
     width: 61%;
 }
 
+/*main-section*/
+
 h3 {
-    color: #585858;
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     font-weight: 600;
+    padding-bottom: 2%;
+    text-align: left;
 }
-.main-container {
-    height: 700px;
+.box-container {
     position: relative;
 }
-
-.cards {
-    background-color: #ffffff;
-    box-shadow: 0 10px #e8e8e8;
-    display: inline-block;
-    margin: 10px auto;
-    padding: 20px;
-    text-align: left;
+.boxes {
+    box-shadow: 1px 10px #ddd;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin: 3%;
+    padding: 2% 2%;
+    text-align: right;
     width: 23%;
 }
-.wrap-text {
-    color: #a0a0a0;
-    font-size: 0.85rem;
-    font-weight: 300;
-    margin: 0;
-    padding: 7px 0 50px;
+
+.text-wrap {
+    padding-bottom: 10%;
+    text-align: left;
 }
+
+.cyan {
+    border-radius: 4px;
+    border-top: 3px solid cyan;
+    left: 140px;
+    position: absolute;
+    top: 90px;
+   
+}
+
+.red {
+    border-radius: 4px;
+    border-top: 3px solid red;
+    left: 480px;
+    position: absolute;
+    top: -40px;
+}
+
+.orange {
+    border-radius: 4px;
+    border-top: 3px solid orange;
+    left: 480px;
+    position: absolute;
+    top: 220px;
+}
+
+.blue {
+    border-radius: 4px;
+    border-top: 3px solid blue;
+    position: absolute;
+    right: 130px;
+    top: 90px;
+}
+
 .img {
-    float: right;
-    padding-bottom: 20px;
+    width: 23%;
 }
 
-#cyancard {
-    border-radius: 5px;
-    border-top-color: cyan;
-    border-top-style: solid;
-    left: 170px;
-    position: absolute;
-    top: 140px;
-}
-
-#redcard {
-    border-radius: 5px;
-    border-top-color: red;
-    border-top-style: solid;
-    left: 520px;
-    position: absolute;
-    top: -5px;
-}
-
-#orangecard {
-    border-radius: 5px;
-    border-top-color: orange;
-    border-top-style: solid;
-    bottom: 140px;
-    left: 520px;
-    position: absolute;
-}
-
-#bluecard {
-    border-radius: 5px;
-    border-top-color: blue;
-    border-top-style: solid;
-    position: absolute;
-    right: 160px;
-    top: 140px;
-
-}
-
-}
+/*footer*/
 
 footer {
-    background-color: #e0e0e0;
-    height: 50px;
-    margin: 0;
-    padding: 15px 0 0;
-    text-align: center;
+    margin: 550px 0 0;
 }
 
-@media (max-width: 1199px) {
-    .main-container {
-        display: block;
-        margin: 0 0 100%;
+@media screen and (max-width: 786px) {
+    .box-container{
+        margin: 5% 15%;
     }
-
-    .cards {
-        margin: 2%;
+    .boxes {
+        padding: 5% 5%;
+        margin-bottom:4%;
+        width: 63%;
     }
-
-    #cyancard {
-        height: 250px;
+    .cyan {
+         position: static;
+    }
+    .red {
         position: static;
-        width: 300px;
     }
-
-    #redcard {
-        height: 250px;
+     .orange {
+         position: static;
+    }
+    .blue {
         position: static;
-        width: 300px;
     }
-
-    #orangecard {
-        height: 250px;
-        position: static;
-        width: 300px;
+    footer {
+        font-size: 0.9rem;
+        margin: 60px 0 0;
     }
-
-    #bluecard {
-        height: 250px;
-        position: static;
-        width: 300px;
-    }
-    .attribution {
-    font-size: 0.9rem;
 }
