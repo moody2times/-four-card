@@ -24,10 +24,9 @@ h2 {
 }
 .header-description {
     color: #b8b8b8;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
     margin: 0 auto 20%;
-    padding: 0 9%;
 }
 /* main section */
 h3 {
@@ -47,7 +46,7 @@ img {
     font-weight: 300;
     margin: 0 auto 6%;
     padding: 0 7%;
-    width: 80%;
+    width: 100%;
     text-align: right;
 }
 .cyan {
