@@ -18,32 +18,34 @@ h1 {
     margin: 25% 0 0;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.47rem;
     font-weight: 600;
-    margin: 0 0;
+    margin: 0 0 ;
 }
-.header-description {
-    color: #b8b8b8;
-    font-size: 0.9rem;
-    font-weight: 300;
-    margin: 0 auto 20%;
+.header-para {
+    color: #a8a5a5;
+    font-size: 0.92rem;
+    font-weight: 400;
+    margin: 5% auto 20%;
+    padding: 0;
     width: 85%;
 }
 /* main section */
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
     text-align: left;
 }
 img {
     padding: 5% 3% 10% 0;
+    width: 60px;
 }
 .cards {
     background-color: white;
     border-top: 3px solid;
     border-radius: 6px;
     box-shadow: 0 10px #ddd;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 300;
     margin: 0 auto 6%;
     padding: 0 7%;
@@ -63,35 +65,34 @@ img {
     border-top-color: blue;
 }
 .text-wrap {
-    color: #b8b8b8;
+    color: #a3a0a0;
     text-align: left;
 }
 /* For desktop */
 @media screen and (min-width: 1200px) {
     .cards-container {
-         display: flex;
-        justify-content: center;
         align-items: center;
-        position: relative;
-        width: 1300px;
+        display: flex;
         height: 700px;
+        position: relative;
+        width: 1300px;    
     }
-    .header-container {
+    .cards-container, .header-container {
         justify-content: center;
     }
     h1 {
         font-size: 2.5rem;
-        margin: 7% 0 0;
+        margin: 7% auto 0;
     }
     h2 {
         font-size: 2.45rem;
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
     }
-    .header-description {
-        font-size: 1.04rem;
+    .header-para {
+        font-size: 1.028rem;
         margin: 2% auto;
-        width: 550px
+        width:  600px;
     }
 .cards {
     font-size: 1rem;
